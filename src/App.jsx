@@ -18,7 +18,6 @@ function Body() {
     setMatchDetails(data)
     
   }
-  console.log('selected date',selectedDate)
 
   function convertDate(date) {
 
@@ -29,7 +28,6 @@ function Body() {
 
   convertDate("06-22-2023 2:00:00 UTC")
   
-  // console.log(matchDetails?.map( date =>selectedDate === date?.MatchDate?.split(' ').shift()))
 
   return (
     <>
